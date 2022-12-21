@@ -1,0 +1,35 @@
+/* ||||||||| GLOBAL ||||||||| */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ||||||||| CLASSES ||||||||| */
+
+
+
+body {
+    background-image: url(../img/Basketball.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: brown;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    align-items: baseline;
+}
+
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+}
